@@ -11,33 +11,21 @@ export default function Footer9() {
                                 <div className="row">
                                     <div className="col-lg-3">
                                         <div className="footer-3logo">
-                                            <img src="/assets/images/logo/logo9.png" alt="" />
+                                            <img src="/assets/images/logo/carocosmo-logo.png" alt="" />
                                             <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Include any
                                                 additional information that may be relevant or helpful for visitors, such as
                                                 FAQs, pricing options, or service packages. Provide contact details.</p>
-                                        </div>
-                                        <div className="social3-links-area list9area">
-                                            <ul>
-                                                <li><Link href="#"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                                <li><Link href="#" className="ml1"><i className="fa-brands fa-google-plus-g" /></Link></li>
-                                                <li><Link href="#" className="ml1"><i className="fa-brands fa-instagram" /></Link></li>
-                                                <li><Link href="#" className="ml1"><i className="fa-brands fa-youtube" /></Link></li>
-                                            </ul>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-6">
                                         <div className="about-3-links align-items-center">
                                             <h1 className="font-20 lineh-20 font-lora weight-600 color-ni">About Link</h1>
                                             <ul>
-                                                <li><Link href="/blog2" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t32 d-inline-block">Our
-                                                    Blog</Link></li>
                                                 <li><Link href="/about" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">About
                                                     Us</Link></li>
-                                                <li><Link href="/servicev1" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">
-                                                    Practice Areas</Link></li>
-                                                <li><Link href="/casestudy1" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">Case
-                                                    Studies</Link></li>
-                                                <li><Link href="/testimonials" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">Testimonials</Link>
+                                                <li><Link href="/products" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">
+                                                    Products</Link></li>
+                                                <li><Link href="/clients" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">Testimonials</Link>
                                                 </li>
                                                 <li><Link href="/contact1" className="font-nunito font-16 lineh-16 colorhp1 weight-600 margin-t d-inline-block">Contact
                                                     Us</Link></li>
@@ -86,8 +74,7 @@ export default function Footer9() {
                             </div>
                             <div className="border7" />
                             <div className="copyright4 text-center">
-                                <p className="font-16 font-nunito color-28 weight-500 ">Copyright {new Date().getFullYear()} © Consalt Finance Consultant,
-                                    Designed by Fleexstudio</p>
+                                <p className="font-16 font-nunito color-28 weight-500 ">Copyright {new Date().getFullYear()} © Carocosmo sourcing company</p>
                             </div>
                         </div>
                     </div>

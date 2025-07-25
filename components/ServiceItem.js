@@ -5,7 +5,7 @@ export default function ServiceItem({
     icon, 
     title, 
     description, 
-    link = "/servicemiddle",
+    link = "/contact1",
     aosDuration = 1000 
 }) {
     return (

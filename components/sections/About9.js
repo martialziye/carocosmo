@@ -1,83 +1,78 @@
 
 import Link from "next/link"
-
+import CounterUp from "../elements/CounterUp"
 export default function About9() {
     return (
         <>
-
-            <div className="about9-section-area section-padding5">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6">
-                            <div className="about-imagesrea" data-aos="zoom-out" data-aos-duration={1200}>
-                                <img src="/assets/images/sectionimg/welcome9about.png" alt="" />
-                                <img src="/assets/images/elementor/Transparency1.png" alt="" className="trandparency aniamtion-key-1" />
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="about9-textarea" data-aos="fade-left" data-aos-duration={1000}>
-                                <span className="font-16 font-ks lineh-16 weight-500 colorhp9 d-inline-block margin-b24 insurance">Why
-                                    Choose Us</span>
-                                <h1 className="font-lora font-44 lineh-54 weight-600 colorh9 margin-b24" data-aos="fade-left" data-aos-duration={1200}>Your Insurance Consulting Strategy Starts Here</h1>
-                                <p className="font-16 font-ks weight-500 color-p2 lineh-26">Whether you're a business owner seeking
-                                    comprehensive coverage for your enterprise or an individual looking to safeguard your
-                                    family's well-being.</p>
-                                <div className="progress-resonsive margin-t32">
-                                    <div className="group-progress">
-                                        <div className="group-icons">
-                                            <img src="/assets/images/icons/groupexport.png" alt="" />
-                                        </div>
-                                        <div className="bar" data-aos="fade-left" data-aos-duration={1400}>
-                                            <div className="info">
-                                                <div className="flexhtml margin-b">
-                                                    <span className="font-16 font-ks weight-600 color-h9 lineh-16">Fast Response
-                                                        Insurance</span>
-                                                    <p className="font-16 font-ks weight-600 color-h9 lineh-16">95%</p>
-                                                </div>
-                                            </div>
-                                            <div className="progress-bar html"><span /></div>
-                                        </div>
-                                    </div>
-                                    <div className="group-progress" data-aos="fade-left" data-aos-duration={1400}>
-                                        <div className="group-icons">
-                                            <img src="/assets/images/icons/groupexport.png" alt="" />
-                                        </div>
-                                        <div className="bar margin-t32">
-                                            <div className="info">
-                                                <div className="flexhtml margin-b">
-                                                    <span className="font-16 font-ks weight-600 color-h9 lineh-16">Insure Mentor
-                                                        Solutions</span>
-                                                    <p className="font-16 font-ks weight-600 color-h9 lineh-16">97%</p>
-                                                </div>
-                                            </div>
-                                            <div className="progress-bar css"><span /></div>
-                                        </div>
-                                    </div>
-                                    <div className="group-progress" data-aos="fade-left" data-aos-duration={1400}>
-                                        <div className="group-icons">
-                                            <img src="/assets/images/icons/groupexport.png" alt="" />
-                                        </div>
-                                        <div className="bar margin-t32">
-                                            <div className="info">
-                                                <div className="flexhtml margin-b">
-                                                    <span className="font-16 font-ks weight-600 color-h9 lineh-16">Pathway
-                                                        Protection Partners</span>
-                                                    <p className="font-16 font-ks weight-600 color-h9 lineh-16">94%</p>
-                                                </div>
-                                            </div>
-                                            <div className="progress-bar javascript"><span /></div>
-                                        </div>
+                   <div className="about3-section-area section-padding5">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6">
+                                    <div className="about3-images1">
+                                        <img src="/assets/images/sectionimg/about3-img1.png" alt="" />
+                                        <img src="/assets/images/elementor/elementor17.png" alt="" className="elementor-9 keyframe3" />
                                     </div>
                                 </div>
-                                <div className="div" data-aos="fade-left" data-aos-duration={1200}>
-                                    <Link href="/about" className="font-16 font-ks weight-700 color lineh-16 consulting10">Protect
-                                        Your Future <span><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <div className="col-lg-6">
+                                    <div className="about3-textarea1">
+                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Who We Are</span>
+                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Connecting Global Industry Solutions Across Asia</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Our team has been serving industrial development in Asia for more than 20 years. Through cooperation with manufacturers, we have provided tens of thousands of factory clients with complete sets of solutions and equipment and parts from all over the world, and have obtained a number of agent certificates.</p>
+                                        <div className="counter3-area3">
+                                            <div className="row">
+                                                <div className="col-lg-6 col-md-6">
+                                                    <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
+                                                        <div className="counter4-boxarea4">
+                                                            <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
+                                                                <CounterUp count={20} />+
+                                                            </h1>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Years Experience</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-6 col-md-6">
+                                                    <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
+                                                        <div className="counter4-boxarea4">
+                                                            <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
+                                                                <CounterUp count={50000} />+
+                                                            </h1>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Factory Clients</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-6 col-md-6">
+                                                    <div className="counter3-boxarea4 text-center">
+                                                        <div className="counter4-boxarea4">
+                                                            <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
+                                                                <CounterUp count={5} />+
+                                                            </h1>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Asian Countries</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-6 col-md-6">
+                                                    <div className="counter3-boxarea4 text-center">
+                                                        <div className="counter4-boxarea4">
+                                                            <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
+                                                                <CounterUp count={100} />+
+                                                            </h1>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Agent Certificates</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <Link href="/contact1" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
+                                            Call Us Today{" "}
+                                            <span>
+                                                <i className="fa-solid fa-arrow-right" />
+                                            </span>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </>
     )
 }
