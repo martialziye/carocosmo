@@ -19,8 +19,7 @@ Location:
 input,
 textarea,
 select,
-option,
-{
+option {
 max-width: 100%;
 }
 
@@ -233,7 +232,7 @@ textarea::placeholder {}
 }
 
 .color-29 {
-    color: #1D2940;
+    color: #015450;
 }
 
 .color-30 {

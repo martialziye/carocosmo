@@ -80,16 +80,6 @@ export default function Footer9() {
                                                     <p className="font-ks font-16 lineh-24 weight-500 colorhp1">8am — 4pm</p>
                                                 </div>
                                             </div>
-                                            <h1 className="font-20 lineh-20 font-lora weight-600 color-h9 margin-t32">Subscribe Our Newsletter</h1>
-                                            <form className="margin-t32">
-                                                <div className="cta5-form">
-                                                    <input type="text" placeholder="Enter Your email" />
-                                                    <div className="buttnocontact1">
-                                                        <button type="Submit" className="font-ks font-1 lineh-16 weight-700 color contactbtn6 contacts9">Subscribe
-                                                            Now <span className="ml1"><i className="fa-solid fa-arrow-right" /></span></button>
-                                                    </div>
-                                                </div>
-                                            </form>
                                         </div>
                                     </div>
                                 </div>

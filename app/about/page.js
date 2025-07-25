@@ -18,18 +18,18 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="about3-textarea1">
-                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">About Us</span>
-                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Mission Values Of Your Law Consult Firm</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Provide professional advice and guidance on legal matters, helping clients understand their rights, obligations, and potential courses.</p>
+                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Who We Are</span>
+                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Connecting Global Industry Solutions Across Asia</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 ">Our team has been serving industrial development in Asia for more than 20 years. Through cooperation with manufacturers, we have provided tens of thousands of factory clients with complete sets of solutions and equipment and parts from all over the world, and have obtained a number of agent certificates.</p>
                                         <div className="counter3-area3">
                                             <div className="row">
                                                 <div className="col-lg-6 col-md-6">
                                                     <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
                                                         <div className="counter4-boxarea4">
                                                             <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                                                                <CounterUp count={959} />+
+                                                                <CounterUp count={20} />+
                                                             </h1>
-                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Case Settlement</p>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Years Experience</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -37,9 +37,9 @@ export default function Home() {
                                                     <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
                                                         <div className="counter4-boxarea4">
                                                             <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                                                                <CounterUp count={250} />+
+                                                                <CounterUp count={50000} />+
                                                             </h1>
-                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Insurance Settlment</p>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Factory Clients</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -47,9 +47,9 @@ export default function Home() {
                                                     <div className="counter3-boxarea4 text-center">
                                                         <div className="counter4-boxarea4">
                                                             <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                                                                <CounterUp count={388} />+
+                                                                <CounterUp count={5} />+
                                                             </h1>
-                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Personal Injury</p>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Asian Countries</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -57,16 +57,16 @@ export default function Home() {
                                                     <div className="counter3-boxarea4 text-center">
                                                         <div className="counter4-boxarea4">
                                                             <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                                                                <CounterUp count={400} />+
+                                                                <CounterUp count={100} />+
                                                             </h1>
-                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Divorce Case</p>
+                                                            <p className="font-ks font-16 lineh-16 weight-500 color-30">Agent Certificates</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Link href="/about" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
-                                            About Us{" "}
+                                        <Link href="/contact1" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
+                                            Call Us Today{" "}
                                             <span>
                                                 <i className="fa-solid fa-arrow-right" />
                                             </span>
@@ -84,11 +84,11 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="lawprovide-textarea">
-                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Our Team Provide Customer Centric Advice to Corporations</h1>
-                                        <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">Business Law Consulting: Detailed information about your business law services, including entity formation, contracts, mergers, acquisitions, and more. ntellectual Property.</p>
-                                        <p className="font-ks font-16 weight-500 lineh-26 color-30">Our team of seasoned legal professionals brings a wealth of experience across various practice areas. You can trust us to provide accurate, up-to-date, and effective legal advice.</p>
-                                        <Link href="/team" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
-                                            Meet Our Attorneys
+                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">What Drives Us - Bridging Global Manufacturing Excellence</h1>
+                                        <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">We are committed to sourcing, marketing good products and bringing them to the customers who need them, building a smooth bridge between manufacturers and end users. Whether the product is daily consumption goods or industrial equipment.</p>
+                                        <p className="font-ks font-16 weight-500 lineh-26 color-30">Whether the deal is B2B or B2C, our global expertise and local presence ensure seamless connections across international markets, delivering comprehensive solutions that empower businesses to thrive.</p>
+                                        <Link href="/servicev1" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
+                                            Our Solutions
                                             <span>
                                                 <i className="fa-solid fa-arrow-right" />
                                             </span>
@@ -102,9 +102,9 @@ export default function Home() {
                                         </div>
                                         <div className="lax-conultingprovide">
                                             <Link href="/servicemiddle" className="color-29">
-                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Personal Legal Guidance</h1>
+                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Industrial Equipment Sourcing</h1>
                                             </Link>
-                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">The first and most crucial step is understanding your unique financial aspirations and challenges.</p>
+                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">Complete sets of solutions and equipment from global manufacturers to meet your industrial needs.</p>
                                         </div>
                                     </div>
                                     <div className="lawprovide-boaxrea margin-b30">
@@ -113,9 +113,9 @@ export default function Home() {
                                         </div>
                                         <div className="lax-conultingprovide">
                                             <Link href="/servicemiddle" className="color-29">
-                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Business Strategy Consulting</h1>
+                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Global Parts & Components</h1>
                                             </Link>
-                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">The first and most crucial step is understanding your unique financial aspirations and challenges.</p>
+                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">Comprehensive supply chain solutions connecting you with quality parts from verified manufacturers worldwide.</p>
                                         </div>
                                     </div>
                                     <div className="lawprovide-boaxrea">
@@ -124,9 +124,9 @@ export default function Home() {
                                         </div>
                                         <div className="lax-conultingprovide">
                                             <Link href="/servicemiddle" className="color-29">
-                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">Litigation Support</h1>
+                                                <h1 className="font-lora font-24 lineh-24 weight-600 color-29 margin-b14 ts">B2B & B2C Solutions</h1>
                                             </Link>
-                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">The first and most crucial step is understanding your unique financial aspirations and challenges.</p>
+                                            <p className="font-ks lineh-26 weight-500 color-30 font-16 ts">Flexible sourcing strategies for both business clients and consumer markets across multiple industries.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -148,32 +148,32 @@ export default function Home() {
                                 <div className="col-lg-6">
                                     <div className="missiontextarea">
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20">Our Mission</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">Business Consulting: Detailed information about your business law services, including entity formation, contracts, mergers, acquisitions, and more. ntellectual Property.</p>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">We are dedicated to achieving favorable results for our clients. Whether it's a business deal, personal matter, or legal dispute, we strive for excellence in all aspects of our work.</p>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">Connecting global manufacturers with businesses across Asia, we facilitate seamless sourcing solutions for industrial equipment, components, and consumer goods, enabling growth and innovation in diverse markets.</p>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-30 margin-b">With over two decades of experience, we are dedicated to building lasting partnerships and delivering exceptional value through our comprehensive sourcing expertise and extensive network.</p>
                                         <ul>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
                                                 <span>
                                                     <img src="/assets/images/icons/check1.png" alt="" />
                                                 </span>
-                                                Client-Focused Solutions and Results
+                                                Client-Focused Sourcing Solutions and Results
                                             </li>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
                                                 <span>
                                                     <img src="/assets/images/icons/check1.png" alt="" />
                                                 </span>
-                                                Flexible, Value Driven Approach
+                                                Flexible, Value-Driven Global Approach
                                             </li>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17 margin-b20">
                                                 <span>
                                                     <img src="/assets/images/icons/check1.png" alt="" />
                                                 </span>
-                                                Warning of updated legal risks for customers
+                                                Continuous Market Intelligence for Customers
                                             </li>
                                             <li className="font-ks font-16 lineh-16 weight-600 color-17">
                                                 <span>
                                                     <img src="/assets/images/icons/check1.png" alt="" />
                                                 </span>
-                                                A team of experienced and highly specialized
+                                                Expert Team with 20+ Years Asian Market Experience
                                             </li>
                                         </ul>
                                         <Link href="/servicev1" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
@@ -195,56 +195,17 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="vission-textarea">
-                                        <h1 className="font-48 lineh-56 font-lora weight-600 color-29 margin-b20">The First Choice For Your Problem</h1>
-                                        <p className="font-16 lineh-26 weight-500 color-30 margin-b24">We understand that every case is unique. That's why we take the time to listen to your concerns and tailor our services to your specific situation, ensuring the best possible outcomes.</p>
+                                        <h1 className="font-48 lineh-56 font-lora weight-600 color-29 margin-b20">Customers We Serve - Hand in Hand, Heart to Heart</h1>
+                                        <p className="font-16 lineh-26 weight-500 color-30 margin-b24">With a strong local presence around the world, our global in-house sales, service, and support teams work directly with customers in 5 Asian countries. Our engineer experts and sales managers provide comprehensive application support, empowering clients to easily get the equipment, materials, and information they need.</p>
                                         <div className="border7 margin-b20" />
-                                        <div className="nav-section-area">
-                                            <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                                <li className="nav-item" role="presentation">
-                                                    <button className="nav-link active nav-btn1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                                                        Our Vission
-                                                    </button>
-                                                </li>
-                                                <li className="nav-item" role="presentation">
-                                                    <button className="nav-link nav-btn1" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                                                        Our History
-                                                    </button>
-                                                </li>
-                                                <li className="nav-item" role="presentation">
-                                                    <button className="nav-link nav-btn1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                                                        Why Choose Us
-                                                    </button>
-                                                </li>
-                                            </ul>
-                                            <div className="tab-content" id="pills-tabContent">
-                                                <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex={0}>
-                                                    <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
-                                                        <span className="weight-700 color-29">Personalized Approach:</span> We understand that every case unique. That's why we take the time to listen to your concerns and tailor our services to your specific situation.
-                                                    </p>
-                                                    <p className="font-ks font-16 weight-500 lineh-26 color-30">
-                                                        <span className="weight-700 color-29">Client-Centric:</span> Your satisfaction is our priority. We maintain to open communication, keeping you informed at every step of the process. Your questions and feedback are always welcome.
-                                                    </p>
-                                                </div>
-                                                <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
-                                                    <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
-                                                        <span className="weight-700 color-29">Personalized Approach:</span> We understand that every case unique. That's why we take the time to listen to your concerns and tailor our services to your specific situation.
-                                                    </p>
-                                                    <p className="font-ks font-16 weight-500 lineh-26 color-30">
-                                                        <span className="weight-700 color-29">Client-Centric:</span> Your satisfaction is our priority. We maintain to open communication, keeping you informed at every step of the process. Your questions and feedback are always welcome.
-                                                    </p>
-                                                </div>
-                                                <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex={0}>
-                                                    <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
-                                                        <span className="weight-700 color-29">Personalized Approach:</span> We understand that every case unique. That's why we take the time to listen to your concerns and tailor our services to your specific situation.
-                                                    </p>
-                                                    <p className="font-ks font-16 weight-500 lineh-26 color-30">
-                                                        <span className="weight-700 color-29">Client-Centric:</span> Your satisfaction is our priority. We maintain to open communication, keeping you informed at every step of the process. Your questions and feedback are always welcome.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <Link href="/servicev1" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
-                                            Get Started Now
+                                        <p className="font-ks font-16 weight-500 lineh-26 margin-b20 color-30">
+                                            <span className="weight-700 color-29">Asian Market Presence:</span> With operations spanning 5 Asian countries, we maintain strong local presence to serve our customers effectively and understand regional market dynamics.
+                                        </p>
+                                        <p className="font-ks font-16 weight-500 lineh-26 color-30">
+                                            <span className="weight-700 color-29">Direct Support:</span> Our in-house sales, service, and support teams work directly with customers, ensuring personalized attention and rapid response to your sourcing needs.
+                                        </p>
+                                        <Link href="/contact1" className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32">
+                                            Get Started Today
                                             <span>
                                                 <i className="fa-solid fa-arrow-right" />
                                             </span>
@@ -262,180 +223,6 @@ export default function Home() {
                         <img src="/assets/images/elementor/elementor23.png" alt="" className="elementor25" />
                     </div>
                     {/*===== VISSION END=======*/}
-                    {/*===== TEAM STARTS=======*/}
-                    <div className="team1-section-area section-padding8">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="team-section-textarea text-center margin-b60">
-                                        <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Our Expert Attorneys</span>
-                                        <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">
-                                            Meet Our Expert Law <br /> Consulting Team
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-3 margin-b30 col-md-6">
-                                    <div className="project-item-two">
-                                        <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team1.png" alt="" />
-                                        </div>
-                                        <div className="project-content-two">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-x-twitter" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-facebook" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-linkedin" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-pera text-center margin-t">
-                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
-                                                <Link href="/team" className="color-29">
-                                                    Johnathan Stehr
-                                                </Link>
-                                            </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Subject Matter Experts</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 margin-b30 col-md-6">
-                                    <div className="project-item-two">
-                                        <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team2.png" alt="" />
-                                        </div>
-                                        <div className="project-content-two">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-x-twitter" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-facebook" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-linkedin" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-pera text-center margin-t">
-                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
-                                                <Link href="/team" className="color-29">
-                                                    Brian Ebert DVM
-                                                </Link>
-                                            </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Educational Consultantst</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 margin-b30 col-md-6">
-                                    <div className="project-item-two">
-                                        <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team1.png" alt="" />
-                                        </div>
-                                        <div className="project-content-two">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-x-twitter" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-facebook" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-linkedin" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-pera text-center margin-t">
-                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
-                                                <Link href="/team" className="color-29">
-                                                    Marion Blanda PhD
-                                                </Link>
-                                            </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Nonprofit Consultants</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 margin-b30 col-md-6">
-                                    <div className="project-item-two">
-                                        <div className="project-thumb-two">
-                                            <img src="/assets/images/sectionimg/team3.png" alt="" />
-                                        </div>
-                                        <div className="project-content-two">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-x-twitter" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-facebook" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">
-                                                        <i className="fa-brands fa-linkedin" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="team-pera text-center margin-t">
-                                            <h1 className="font-lora font-24 lineh-24 color-29 weight-600 margin-b12">
-                                                <Link href="/team" className="color-29">
-                                                    Warren Predovic
-                                                </Link>
-                                            </h1>
-                                            <p className="font-16 lineh-16 weight-500 color-30 font-ks">Technology Consultantst</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*===== TEAM END=======*/}
                     {/*===== CTA STARST=======*/}
                     <div className="cta5-section-area section-padding4">
                         <img src="/assets/images/elementor/elementor72.png" alt="" className="elementors72" />
@@ -443,15 +230,15 @@ export default function Home() {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="cta5-auhtor6-area">
-                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get expert Law advice on criminal strategies</h1>
-                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make better Law decisions. As part of our service, we'll provide educational resources and workshops to help.</p>
+                                        <h1 className="font-lora font-48 lineh-52 color weight-600 margin-b text-capitalize">Get Expert Sourcing Solutions for Your Business</h1>
+                                        <p className="font-ks font-16 lineh-26 weight-500 color-21">We believe that informed clients make better sourcing decisions. As part of our service, we'll provide comprehensive market intelligence and sourcing strategies to help your business thrive.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-2" />
                                 <div className="col-lg-4">
                                     <div className="cta5-btn5-sexction">
                                         <Link href="/contact1" className="theme6-btn6 bakgrnd5 font-ks lineh-16 weight-700 color font-16">
-                                            Get Law Advice
+                                            Get Sourcing Quote
                                             <span>
                                                 <i className="fa-solid fa-arrow-right" />
                                             </span>

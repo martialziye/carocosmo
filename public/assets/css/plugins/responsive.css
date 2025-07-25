@@ -2198,13 +2198,13 @@ img.welcome9 {
 .pricing-allowarea {
     text-align: center;
     margin-top: 40px;
-    margin-left: -104px;
+    margin-left: -53px;
 }
 
 img.elementorspricing {
     text-align: center;
     left: 0;
-    margin-top: 9px;
+    margin-top: 33px;
 }
 
 .pricing10-boxarea ul {
@@ -2386,7 +2386,7 @@ a.cta5btn5 {
 }
 .blog-auhtor-text {
     margin-top: 50px;
-    border: 1px solid #1D2940;
+    border: 1px solid #015450;
 }
 .contact8 {
     margin-top: 20px;
@@ -3467,8 +3467,8 @@ img.imagesgreen {
     left: 0;
 }
 .welcome7-textarea h1 {
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 50px;
+    line-height: 60px;
 }
 
 .about-7textarea {
@@ -3477,8 +3477,8 @@ img.imagesgreen {
 }
 
 .about-7textarea h1 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 35px;
+    line-height: 45px;
 }
 
 .uncommonlist {
@@ -3491,7 +3491,7 @@ img.imagesgreen {
 }
 
 img.elementors12 {
-    z-index: -;
+    z-index: -1;
 }
 
 .tax-consulttext1 {
@@ -3790,7 +3790,7 @@ img.welcome9 {
 }
 
 .elips-icon6 {
-    left: 121px;
+    left: 145px;
 }
 
 .client10-header h1 {
@@ -3799,11 +3799,11 @@ img.welcome9 {
 }
 
 .service10-icon {
-    left: 141px;
+    left: 165px;
 }
 
 .numbericon {
-    left: 137px;
+    left: 163px;
 }
 
 .service10-textarea {
@@ -3933,6 +3933,11 @@ body,html{
   .contact3-image3 {
     margin-top: 30px;
 }
+.team-detailsarea {
+    padding: 0;
+    margin-top: 30px;
+}
+
 .team-detailsarea h1 {
     font-size: 35px;
     line-height: 45px;
@@ -4036,7 +4041,7 @@ a.cta5btn5 {
 }
 .blog-auhtor-text {
     margin-top: 50px;
-    border: 1px solid #1D2940;
+    border: 1px solid #015450;
 }
 .contact8 {
     margin-top: 20px;
@@ -4048,77 +4053,33 @@ a.cta5btn5 {
 .cta8-headerarea {
     margin-bottom: 30px;
 }
-.form5-srea .button13 {
-    position: relative;
-    width: 100%;
-    margin-top: 21px;
-}
-
-a.theme6-btn6.backgrnd62 {
-    margin-left: 0;
-    margin-top: 20px;
-}
-.single-portfolio:hover .portfolio-textarea {
-    height: 278px;
-    left: 10%;
-    bottom: 26px;
-    width: 289px;
-}
-.header5-textareah5 {
-    margin-top: 60px;
-}
-
 .all-phoneflex {
     margin-top: 20px;
     margin-left: 0;
 }
-ul.pagination {
-    margin-left: 30px;
+
+.header5-textareah5 {
+    margin-top: 60px;
 }
 .accordian-area.accourbutton button {
     line-height: 30px;
 }
-.tags-area ul li {
-    display: block;
-    /* text-align: center; */
-    margin-left: 0;
-    margin-top: 10px;
+.welcome7-textarea {
+    margin-bottom: 50px;
 }
 
-.tags-area ul li a {
-    margin-left: 0;
-}
-.posttags ul li {
-    margin-top: 20px;
-    text-align: start;
-    justify-content: start;
+.uncommonlist {
+    margin-top: 16px;
 }
 
-.posttags {
-    display: flex;
-}
-
-.replyfleex-area {
-    display: block;
-}
-.replyfleex-area a span {
-    margin-top: 20px;
-    display: block;
-}
-
-.blog-left-header h1 {
-    font-size: 35px;
-    line-height: 45px;
-}
-.blogleftinner3-area {
-    padding: 0;
-}
-.replyfleex-area span {
-    margin-top: 20px;
-    display: block;
+.cta7-textarea {
+    margin-bottom: 30px;
 }
 .about40links {
-    padding-left: 0;
+    padding-left: 40px;
+}
+.single-portfolio:hover .portfolio-textarea {
+    height: 290px;
 }
 .welcome11-header-area h1 {
     font-size: 40px;
@@ -4163,7 +4124,7 @@ ul.pagination {
 }
 
 .service11-boxtext {
-    left: 11px;
+    left: 35px;
 }
 
 .service-vectorarea {
@@ -4321,6 +4282,8 @@ button.themebtn14 {
     line-height: 45px;
 }
 }
+
+
 @media screen and (max-width:320px) {
     .service11-boxtext {
         width: 100%;

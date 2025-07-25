@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
-            <div className="welcomeabout-area">
+            <div className="welcomeabout-area" style={{backgroundColor: '#115450'}}>
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="welcomeaboiut2 text-center">
