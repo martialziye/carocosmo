@@ -237,15 +237,11 @@ export default function Header9({ scroll, isMobileMenu, handleMobileMenu }) {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><Link href="#" className="font-ks font-16 weight-500 color-1">Case Studies <span><i className="fa-solid fa-angle-down" /></span></Link>
+                                            <li><Link href="#" className="font-ks font-16 weight-500 color-1">Markets <span><i className="fa-solid fa-angle-down" /></span></Link>
                                                 <ul>
-                                                    <li><Link href="/casestudy1" className="font-ks font-16 weight-500 color">Case
-                                                        Study</Link></li>
-                                                    <li><Link href="/caseleft" className="font-ks font-16 weight-500 color">Case
-                                                        Details left</Link></li>
-                                                    <li><Link href="/caseright" className="font-ks font-16 weight-500 color">Case
-                                                        Details Right</Link></li>
-                                                    <li><Link href="/casemiddle" className="font-ks font-16 weight-500 color">Single Case</Link></li>
+                                                    <li><Link href="/electronic" className="font-ks font-16 weight-500 color">Electronical Engineering</Link></li>
+                                                    <li><Link href="/automotive" className="font-ks font-16 weight-500 color">Automotive</Link></li>
+                                                    <li><Link href="/aerospace" className="font-ks font-16 weight-500 color">Aerospace</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link href="#" className="font-ks font-16 weight-500 color-1">Our Blogs <span><i className="fa-solid fa-angle-down" /></span></Link>
