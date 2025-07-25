@@ -22,7 +22,7 @@ export default function Cta9() {
                             <div className="cta9-btnarea">
                                 <Link href="/contact1" className="font-16 weight-700 font-ks colorhp9 contactcta9">Schedule an
                                     Apointment <span className="ml1"><i className="fa-solid fa-arrow-right" /></span></Link>
-                                <Link href="/contact2" className="font-16 weight-700 font-ks color contactcta10">Contact Us <span className="ml1"><i className="fa-solid fa-arrow-right" /></span></Link>
+                                <Link href="/contact1" className="font-16 weight-700 font-ks color contactcta10">Contact Us <span className="ml1"><i className="fa-solid fa-arrow-right" /></span></Link>
                             </div>
                         </div>
                     </div>

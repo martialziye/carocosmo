@@ -12,9 +12,7 @@ export default function Footer9() {
                                     <div className="col-lg-3">
                                         <div className="footer-3logo">
                                             <img src="/assets/images/logo/carocosmo-logo.png" alt="" />
-                                            <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Include any
-                                                additional information that may be relevant or helpful for visitors, such as
-                                                FAQs, pricing options, or service packages. Provide contact details.</p>
+                                            <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Carocosmo connects businesses with trusted global manufacturers. Specializing in electrical, medical, and semiconductor sourcing with competitive pricing and quality assurance.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-6">
