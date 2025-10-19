@@ -1,25 +1,30 @@
-'use client'
 import Layout from "@/components/layout/Layout"
 import VideoPopup from "@/components/elements/VideoPopup"
 import data from "@/util/blog.json"
 import Link from "next/link"
-import { useParams } from "next/navigation"
-import { useEffect, useState } from "react"
 
-export default function BlogDetails() {
-    let Router = useParams()
-    const [blogPost, setBlogPost] = useState(null)
-    const id = Router.id
+// 生成静态参数
+export async function generateStaticParams() {
+  return data.map((post) => ({
+    id: post.id.toString(),
+  }))
+}
 
-    useEffect(() => {
-        setBlogPost(data.find((data) => data.id == id))
-    }, [id])
+// 获取博客文章数据
+function getBlogPost(id) {
+  return data.find((post) => post.id == id)
+}
+
+export default function BlogDetails({ params }) {
+    const blogPost = getBlogPost(params.id)
+
+    if (!blogPost) {
+        return <div>Blog post not found</div>
+    }
 
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Middle">
-                {blogPost && (
-                    <>
 
                         <div className="blogleft-section-area section-padding5">
                             <div className="container">
@@ -383,8 +388,6 @@ export default function BlogDetails() {
                             </div>
                             <img src="/assets/images/elementor/elementor72.png" alt="" className="elementors73" />
                         </div>
-                    </>
-                )}
             </Layout>
         </>
     )

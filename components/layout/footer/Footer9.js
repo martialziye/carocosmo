@@ -9,13 +9,15 @@ export default function Footer9() {
                         <div className="col-lg-12">
                             <div className="footer4-all-area footer6 section-padding15">
                                 <div className="row">
-                                    <div className="col-lg-3">
-                                        <div className="footer-3logo">
+                                    <div className="col-lg-12">
+                                        <div className="footer-3logo text-center margin-b32">
                                             <img src="/assets/images/logo/carocosmo-logo.png" alt="" />
-                                            <p className="font-nunito font-16 lineh-26 color-nuni margin-t margin-b24">Carocosmo connects businesses with trusted global manufacturers. Specializing in electrical, medical, and semiconductor sourcing with competitive pricing and quality assurance.</p>
+                                            <p className="font-nunito font-16 lineh-26 color-nuni margin-t">Carocosmo connects businesses with trusted global manufacturers. Specializing in electrical, medical, and semiconductor sourcing with competitive pricing and quality assurance.</p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-2 col-md-6">
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-3 col-md-6">
                                         <div className="about-3-links align-items-center">
                                             <h1 className="font-20 lineh-20 font-lora weight-600 color-ni">About Link</h1>
                                             <ul>
@@ -32,7 +34,7 @@ export default function Footer9() {
                                     </div>
                                     <div className="col-lg-3 col-md-6">
                                         <div className="contcat4-footer">
-                                            <h1 className="font-20 lineh-20 font-lora weight-600 color-ni">Get in touch</h1>
+                                            <h1 className="font-20 lineh-20 font-lora weight-600 color-ni">France Office</h1>
                                             <div className="location-icon4 margin-t32">
                                                 <div className="image5">
                                                     <img src="/assets/images/icons/email5.png" alt="" />
@@ -53,7 +55,30 @@ export default function Footer9() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-4">
+                                    <div className="col-lg-3 col-md-6">
+                                        <div className="contcat4-footer">
+                                            <h1 className="font-20 lineh-20 font-lora weight-600 color-ni">Canada Office</h1>
+                                            <div className="location-icon4 margin-t32">
+                                                <div className="image5">
+                                                    <img src="/assets/images/icons/email5.png" alt="" />
+                                                </div>
+                                                <Link href="mailto:contact@engiprotech.com" className="font-ks font-16 lineh-24 weight-500 colorhp1">contact@engiprotech.com</Link>
+                                            </div>
+                                            <div className="location-icon4 margin-t">
+                                                <div className="imgge5">
+                                                    <img src="/assets/images/icons/location4.svg" alt="" />
+                                                </div>
+                                                <Link href="#" className="font-ks font-16 lineh-24 weight-500 colorhp1">22679 Fraserbank Crescent, <br /> Richmond, BC, Canada, V6V 2L8</Link>
+                                            </div>
+                                            <div className="location-icon4 margin-t">
+                                                <div className="image5">
+                                                    <img src="/assets/images/icons/phone7.svg" alt="" />
+                                                </div>
+                                                <Link href="tel:+12369967688" className="font-ks font-16 lineh-24 weight-500 colorhp1">+1 236-996-7688</Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-3 col-md-6">
                                         <div className="cta-contact6">
                                             <h1 className="font-20 lineh-20 font-lora weight-600 color-h9">Business Hours</h1>
                                             <div className="business-hours margin-t32">

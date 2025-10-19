@@ -36,7 +36,8 @@ export default function Home() {
                                         <h1 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20 clienth2">Contact Us for
                                             Expert Sourcing Solutions</h1>
                                         <p className="font-ks font-16 weight-500 lineh-26 color-30">Professional sourcing services and global supply chain solutions to help your business connect with quality manufacturers and suppliers worldwide.</p>
-                                        <div className="phone7-textarea margin-t32 contactinnerbg">
+                                        <h3 className="font-lora font-20 lineh-24 weight-600 color-29 margin-t32 margin-b">France Office</h3>
+                                        <div className="phone7-textarea contactinnerbg">
                                             <div className="phone7-icon">
                                                 <img src="/assets/images/icons/phone8.png" alt="" />
                                             </div>
@@ -52,6 +53,25 @@ export default function Home() {
                                             <div className="phone7-text">
                                                 <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Send us Email</p>
                                                 <Link href="mailto:contact@carocosmo.fr" className="font-lora font-24 weight-700 lineh-24 color-29">contact@carocosmo.fr</Link>
+                                            </div>
+                                        </div>
+                                        <h3 className="font-lora font-20 lineh-24 weight-600 color-29 margin-t32 margin-b">Canada Office</h3>
+                                        <div className="phone7-textarea contactinnerbg">
+                                            <div className="phone7-icon">
+                                                <img src="/assets/images/icons/phone8.png" alt="" />
+                                            </div>
+                                            <div className="phone7-text">
+                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Give us a Call</p>
+                                                <Link href="tel:+12369967688" className="font-lora font-24 weight-700 lineh-24 color-29">+1 236-996-7688</Link>
+                                            </div>
+                                        </div>
+                                        <div className="phone7-textarea margin-t contactinnerbg">
+                                            <div className="phone7-icon">
+                                                <img src="/assets/images/icons/email7.png" alt="" />
+                                            </div>
+                                            <div className="phone7-text">
+                                                <p className="font-16 lineh-16 weight-500 font-ks color-30 margin-b">Send us Email</p>
+                                                <Link href="mailto:contact@engiprotech.com" className="font-lora font-24 weight-700 lineh-24 color-29">contact@engiprotech.com</Link>
                                             </div>
                                         </div>
                                     </div>

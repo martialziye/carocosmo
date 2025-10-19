@@ -1,16 +1,4 @@
 import { Kumbh_Sans, Nunito, Outfit,Lora } from 'next/font/google'
-import "/public/assets/css/plugins/bootstrap.min.css"
-import "/public/assets/css/plugins/font-awesome-pro.css"
-import "/public/assets/css/plugins/nice-select.css"
-import "/public/assets/css/plugins/swiper.bundle.css"
-import "/public/assets/icon/font-awesome/css/all.css"
-// import "/public/assets/css/plugins/owl.carousel.min.css"
-import "/public/assets/css/plugins/modal-video.min.css"
-import "/public/assets/css/plugins/mobile.css"
-import "/public/assets/css/plugins/aos.css"
-import "/public/assets/css/typography.css"
-import "/public/assets/css/master.css"
-import "/public/assets/css/plugins/responsive.css"
 
 const nunito = Nunito({
     weight: ['300', '400', '500', '600', '700'],
@@ -45,6 +33,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                <link rel="stylesheet" href="/assets/css/plugins/bootstrap.min.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/font-awesome-pro.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/nice-select.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/swiper.bundle.css" />
+                <link rel="stylesheet" href="/assets/icon/font-awesome/css/all.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/modal-video.min.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/mobile.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/aos.css" />
+                <link rel="stylesheet" href="/assets/css/typography.css" />
+                <link rel="stylesheet" href="/assets/css/master.css" />
+                <link rel="stylesheet" href="/assets/css/plugins/responsive.css" />
+            </head>
             <body className={`${nunito.variable} ${outfit.variable} ${kumbh.variable} ${lora.variable}`}>{children}</body>
         </html>
     )
